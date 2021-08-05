@@ -1,0 +1,20 @@
+.button {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  outline: none;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.button p {
+  display: block;
+  text-align: center;
+  line-height: 110px;
+  color: white;
+  font-size: 40px;
+  /* vertical-align: middle; */
+}
+
+.button:hover {
+  background: blue;
+}
